@@ -1,4 +1,3 @@
-# Pull base image 
 FROM tomcat 
 ADD /webapp/target/webapp.war /usr/local/tomcat/webapps
 EXPOSE 8080
