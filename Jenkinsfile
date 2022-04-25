@@ -2,7 +2,7 @@ node {
     stage('checkout') {
        git 'https://github.com/GANGARAJU9052/jenkins-pipeline.git'
    }
-     stage('build') {
+     stage('build start') {
        sh 'mvn package'
    }
      stage('deployment') {
