@@ -1,5 +1,4 @@
-
- node {
+ node {
     stage('checkout') {
        git branch: 'alpha', url: 'https://github.com/GANGARAJU9052/jenkins-pipeline.git'
    }
