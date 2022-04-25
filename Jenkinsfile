@@ -7,7 +7,7 @@ node {
    }
      stage('deployment') {
        sh '''cd /var/lib/jenkins/workspace/helloworld
-             docker build -t app2 .
-             docker run --name app2 -p 8081:8080 -d app2'''
+             docker build -t app5 .
+             docker run --name app5 -p 8081:8080 -d app5'''
    }
 }
