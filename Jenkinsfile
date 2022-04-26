@@ -1,5 +1,5 @@
 node {
-    stage('checkout  ') {
+    stage('checkout') {
        git branch: 'dev', url: 'https://github.com/GANGARAJU9052/jenkins-pipeline.git'
     }
      stage('build start') {
